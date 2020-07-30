@@ -1,8 +1,20 @@
 import { v4 as uuidv4 } from 'uuid';
 import { Router } from 'express';
  
+// ? foo bar
+
+//  foo bar
+
+// * foo bar
+
+// TODO: foo bar
+// ! foo bar
+
+
 const router = Router();
- 
+
+// ! foo bar
+
 router.get('/', (req, res) => {
   return res.send(Object.values(req.context.models.messages));
 });
